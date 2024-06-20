@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    background-color: rgb(252, 187, 161);
+}
+.container{
+    max-width:80rem ;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+    
+}
+.header{
+    padding:2rem;
+    margin: 2rem auto;
+    text-align: center;
+    color: rgba(127, 29, 7, 0.986);
+    
+}
+.header .title{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+.header.description{
+    text-align: center;
+    font-size: 2rem;
+}
+.tribute{
+    display:grid;
+    grid-template-columns: 2fr 1.5fr;
+    max-width: 80rem;
+    background: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+.tribute blockquote{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.tribute img{
+    float: right;
+    
+    max-width: 100%;
+    
+}
+.bio{
+    margin:2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+    color: rgba(127, 29, 7, 0.986);;
+}
+.bio>h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.bio>p{
+  font-size: 1.2rem;
+  line-height:1.4 ;  
+}
+
+.bio>br{
+    color: #000;
+
+
+}
